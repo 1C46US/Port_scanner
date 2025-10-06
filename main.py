@@ -19,8 +19,7 @@ def port_checker(host, port):
         return True
 
 
-# host = input("Enter the host ip here: ")
-host = "8.8.8.8"
+host = input("Enter the host ip here: ")
 
 
 for port in range(1, 1024):
